@@ -1,0 +1,171 @@
+.citytext {
+  position: absolute;
+  top: 0px;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.col-sm:hover .citytext {
+  visibility: visible;
+  opacity: 1;
+}
+.digbethtext {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+
+.col-sm:hover .digbethtext {
+  visibility: visible;
+  opacity: 1;
+}
+.jewellerytext {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.col-sm:hover .jewellerytext {
+  visibility: visible;
+  opacity: 1;
+}
+.harbornetext {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.col-sm:hover .harbornetext {
+  visibility: visible;
+  opacity: 1;
+}
+.sellytext {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.col-sm:hover .sellytext {
+  visibility: visible;
+  opacity: 1;
+}
+.bournvilletext {
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  left: 60px;
+  right: 100px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.col-sm:hover .bournvilletext {
+  visibility: visible;
+  opacity: 1;
+}
+div.col-sm {
+  display:inline-block;
+  font-family: helvetica, sans-serif;
+  color: black;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+.city-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.digbeth-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.jewellery-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.selly-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.harborne-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.bournville-image {
+  border-radius: 10px;
+  margin: 15px;
+}
+.subhead {
+position: absolute;
+top: 20px;
+left: 150px;
+color: black;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 75px;
+  padding: 10px;
+  margin: 60px 0 0 0;
+}
+h2 {
+font-family: helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+margin: 0px 0 70px 0;
+}
+h3 {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  margin: 0px 0 70px 0;
+}
+  body {
+    background-color: #A3E4D7;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+p {
+  color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 15px;
+}
