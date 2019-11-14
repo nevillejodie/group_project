@@ -169,3 +169,11 @@ p {
   bottom: 0;
   margin: 15px;
 }
+.footer {
+  padding-top: 100px;
+  padding-left: 575px;
+  align-items: center;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
