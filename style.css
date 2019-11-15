@@ -1,8 +1,8 @@
 .citytext {
   position: absolute;
-  top: 0px;
+  top: 0;
   bottom: 100px;
-  left: 60px;
+  left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
@@ -18,7 +18,7 @@ transition: opacity .2s, visibility .2s;
   position: absolute;
   top: 0;
   bottom: 100px;
-  left: 60px;
+  left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
@@ -26,32 +26,15 @@ transition: opacity .2s, visibility .2s;
   opacity: 0;
 transition: opacity .2s, visibility .2s;
 }
-
 .col-sm:hover .digbethtext {
-  visibility: visible;
-  opacity: 1;
-}
-.jewellerytext {
-  position: absolute;
-  top: 0;
-  bottom: 100px;
-  left: 60px;
-  right: 100px;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-transition: opacity .2s, visibility .2s;
-}
-.col-sm:hover .jewellerytext {
   visibility: visible;
   opacity: 1;
 }
 .harbornetext {
   position: absolute;
-  top: 0;
+  top: 100px;
   bottom: 100px;
-  left: 60px;
+  left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
@@ -65,9 +48,9 @@ transition: opacity .2s, visibility .2s;
 }
 .sellytext {
   position: absolute;
-  top: 0;
+  top: 100px;
   bottom: 100px;
-  left: 60px;
+  left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
@@ -79,43 +62,18 @@ transition: opacity .2s, visibility .2s;
   visibility: visible;
   opacity: 1;
 }
-.bournvilletext {
-  position: absolute;
-  top: 0;
-  bottom: 100px;
-  left: 60px;
-  right: 100px;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-transition: opacity .2s, visibility .2s;
-}
-.col-sm:hover .bournvilletext {
-  visibility: visible;
-  opacity: 1;
-}
-div.col-sm {
-  display:inline-block;
-  font-family: helvetica, sans-serif;
-  color: black;
-  height: 250px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-}
+
+
 .city-image {
   border-radius: 10px;
   margin: 15px;
+  margin-bottom: 55px;
+  margin-top: -50px;
 }
 .digbeth-image {
   border-radius: 10px;
   margin: 15px;
-}
-.jewellery-image {
-  border-radius: 10px;
-  margin: 15px;
+  margin-top: -50px;
 }
 .selly-image {
   border-radius: 10px;
@@ -125,16 +83,8 @@ div.col-sm {
   border-radius: 10px;
   margin: 15px;
 }
-.bournville-image {
-  border-radius: 10px;
-  margin: 15px;
-}
-.subhead {
-position: absolute;
-top: 20px;
-left: 150px;
-color: black;
-}
+
+
 h1 {
   font-family: 'Londrina Shadow', cursive;
   font-size: 75px;
@@ -145,12 +95,11 @@ h2 {
 font-family: helvetica, sans-serif;
 font-size: 20px;
 text-align: center;
-margin: 0px 0 70px 0;
+margin: 0px 0 70px 100px;
 }
 h3 {
   font-family: helvetica, sans-serif;
   text-align: center;
-  margin: 0px 0 70px 0;
 }
   body {
     background-color: #A3E4D7;
@@ -176,4 +125,18 @@ p {
   margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+.row {
+position: relative;
+text-align: center;
+}
+div.col-sm {
+  display:inline-block;
+  font-family: helvetica, sans-serif;
+  color: black;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
 }
