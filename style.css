@@ -62,8 +62,6 @@ transition: opacity .2s, visibility .2s;
   visibility: visible;
   opacity: 1;
 }
-
-
 .city-image {
   border-radius: 10px;
   margin: 15px;
@@ -83,8 +81,6 @@ transition: opacity .2s, visibility .2s;
   border-radius: 10px;
   margin: 15px;
 }
-
-
 h1 {
   font-family: 'Londrina Shadow', cursive;
   font-size: 75px;
@@ -114,8 +110,8 @@ p {
   padding: 5px;
   line-height: 28px;
   text-align: justify;
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  bottom: 50px;
   margin: 15px;
 }
 .footer {
