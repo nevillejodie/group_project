@@ -115,3 +115,12 @@ font-family: 'Londrina Shadow', cursive;
 font-size: 75px;
   text-color: #aaaaaa;
 }
+.footer {
+  padding-top: 100px;
+  padding-left: 500px;
+  padding-right: 500px;
+  align-items: center;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
