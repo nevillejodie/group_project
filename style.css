@@ -1,3 +1,6 @@
+#navcolorbhub {
+  background-color: #F9C6D6;
+}
 .citytext {
   position: absolute;
   top: 0;
@@ -98,7 +101,7 @@ h3 {
   text-align: center;
 }
   body {
-    background-color: #A3E4D7;
+    background-color: white;
     text-align: center;
     margin:0px;
     padding:0px;
