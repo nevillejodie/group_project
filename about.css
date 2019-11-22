@@ -8,10 +8,6 @@ font-size: 75px;
 background-color: rgba(0, 128, 128,1.0);
 text-align: center;
 }
-p {
-  font-family: helvetica, sans-serif;
-  text-align: left;
-}
 .cfg {
 display: block;
  margin-left: auto;
