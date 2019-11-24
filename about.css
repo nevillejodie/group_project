@@ -1,7 +1,11 @@
+#navcolorbhub {
+  background-color: #F9C6D6;
+}
 body {
-    background-color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin: 10px 30px 10px 30px;
 }
 h1 {
 font-family: 'Londrina Shadow', cursive;
@@ -11,6 +15,28 @@ text-align: center;
 }
 .cfg {
 display: block;
- margin-left: auto;
- margin-right: auto;
+align: left;
+border-radius: 10px;
+margin: 20px 0 20px 0px;
+}
+.economist {
+  display: block;
+  align: left;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.footer {
+  padding-top: 100px;
+  padding-left: 500px;
+  padding-right: 500px;
+  align-items: center;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+h2 {
+font-family: Helvetica, Arial, sans-serif;
+text-align: left;
+color: black;
+margin: 30px 0px 0px 0px;
 }
