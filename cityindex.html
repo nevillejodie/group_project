@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
-      <link rel="stylesheet" type="text/css" href="cityindex.css" />
-          <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title> Work B-Hub </title>
+<title> City Centre B-Hub </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="cityindex.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light" id= "navcolorbhub">
@@ -45,19 +45,59 @@
 </nav>
 <body>
   <h1>City Centre</h1>
-  <h2>Explore the array of work-friendly spaces that Birmingham has to offer. From coffee shops to libraries, bakerys to learning centres. Here are some of our top recommendations of places to work.</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <button type="button" class="collapsible">York's</button>
-<div class="content">
-  <p>Lorem ipsum...</p>
-</div>
-        </div>
-        <div class="col">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9719.525253138323!2d-1.9068496183602268!3d52.48128462690805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc8dea5a590b%3A0xf5a8185ddef9e97c!2sCity%20Centre%2C%20Birmingham!5e0!3m2!1sen!2suk!4v1573676813674!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  <h2>Explore the work-friendly spaces that Birmingham has to offer. From coffee shops to libraries, bakerys to learning centres. Here are some of our top recommendations for places to work.</h2>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            200 Degrees
+          </button>
+        </h5>
+      </div>
+
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <img class="work-image" src="https://200degs.com/pages/home/Shops%201.jpg" width="400" height="300" frameborder="50" style="border:100;" alt="An image of 200 degrees cafe">
+          <br> Named so because they roast their coffee at a slightly lower temperature, 200 Degrees is perfect if you need a little sustenance while you work. Boasting a range of delicious coffee and cake along with its cosy interior, this is the place to go if you are more productive in an atmospheric environment.
+         <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1214.9340136782764!2d-1.8998703142294955!3d52.48152517556859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc8e63433bef%3A0x14e5d2582d2afaf0!2s200%20Degrees%20Coffee%20Shop%20%26%20Barista%20School!5e0!3m2!1sen!2suk!4v1574600173980!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
       </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Medicine Bakery and Gallery
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+        <img src="https://hirespace.imgix.net/spaces/180221/u1b1jrn3u4u.png?h=1080&w=1920&auto=format&fit=crop&q=40" width="400" height="300">
+          <br>Medicine was born out of a discovery of abandoned space, of new possibilities and an inquisitive quality for creating something vital and diverse. An artisan bakery and kitchen, café and gallery, which is rooted in Birmingham heritage, Medicine represents a new format of social space. It finds its niche through a carefully curated menu of ethical products, whilst offering a daily fix of cultural inspiration in an environment which promotes a debate about art and culture.
+<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2429.9795000737363!2d-1.903843484789293!3d52.479506879806564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc8c74f28bd5%3A0x5fbe54a4d95eb30f!2sMedicine%20Bakery!5e0!3m2!1sen!2suk!4v1574600842913!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Faculty
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <script src="cityindex.js"></script>

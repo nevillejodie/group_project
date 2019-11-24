@@ -2,10 +2,8 @@
   background-color: #F9C6D6;
 }
 h1 {
-align-items: center;
-  font-family: 'Londrina Shadow';
-  font-size: 75px;
-}
-body {
-  background-color: blue;
+font-family: 'Londrina Shadow', cursive;
+font-size: 75px;
+text-color: #aaaaaa;
+text-align:center;
 }
