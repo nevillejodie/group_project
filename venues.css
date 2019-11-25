@@ -76,7 +76,6 @@ transition: opacity .2s, visibility .2s;
 }
 .h2 {
 font-family: helvetica, sans-serif;
-font-size: 20px;
 text-align: center;
 margin: 0px 0 70px 100px;
 }
@@ -98,7 +97,7 @@ margin: 0px 0 70px 100px;
   line-height: 28px;
   text-align: justify;
   position: relative;
-  bottom: 50px;
+  bottom: 5px;
   margin: 15px;
 }
 .footer {
