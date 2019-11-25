@@ -3,10 +3,10 @@
 }
 .ikontext {
   position: absolute;
-  top: 0;
-  bottom: 100;
-  left: 100;
-  right: 100;
+  top: 100px;
+  bottom: 50px;
+  left: 100px;
+  right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
@@ -20,10 +20,10 @@ transition: opacity .2s, visibility .2s;
 }
 .ddctext {
   position: absolute;
-  top: 0;
-  bottom: 100;
-  left: 100;
-  right: 100;
+  top: 100px;
+  bottom: 60px;
+  left: 100px;
+  right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
@@ -37,10 +37,10 @@ transition: opacity .2s, visibility .2s;
 }
 .custardfactorytext {
   position: absolute;
-  top: 0;
-  bottom: 100;
-  left: 100;
-  right: 100;
+  top: 100px;
+  bottom: 60px;
+  left: 100px;
+  right: 100px;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
@@ -58,38 +58,38 @@ transition: opacity .2s, visibility .2s;
   margin: 15px;
 }
 .ddc-image {
-  width: 250px;
+  width: 300px;
   border-radius: 10px;
   margin: 15px;
 }
 .custardfactory-image {
-  width: 275px;
+  width: 300px;
   border-radius: 10px;
   margin: 15px;
 }
 
-.h1 {
+h1 {
   font-family: 'Londrina Shadow', cursive;
   font-size: 75px;
   padding: 10px;
   margin: 60px 0 0 0;
 }
-.h2 {
+h2 {
 font-family: helvetica, sans-serif;
 text-align: center;
 margin: 0px 0 70px 100px;
 }
-.h3 {
+h3 {
   font-family: helvetica, sans-serif;
   text-align: center;
 }
-  .body {
+  body {
     background-color: white;
     text-align: center;
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
-.p {
+p {
   color: black;
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -100,7 +100,7 @@ margin: 0px 0 70px 100px;
   bottom: 5px;
   margin: 15px;
 }
-.footer {
+footer {
   padding-top: 100px;
   padding-left: 575px;
   align-items: center;
@@ -112,7 +112,7 @@ margin: 0px 0 70px 100px;
 position: relative;
 text-align: center;
 }
-.div.col-sm {
+div.col-sm {
   display:inline-block;
   font-family: helvetica, sans-serif;
   color: black;
