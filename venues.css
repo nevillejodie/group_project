@@ -4,9 +4,9 @@
 .ikontext {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 100;
+  left: 100;
+  right: 100;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
@@ -14,16 +14,16 @@
 transition: opacity .2s, visibility .2s;
 }
 
-.column:hover .ikontext {
+.col-sm:hover .ikontext {
   visibility: visible;
   opacity: 1;
 }
 .ddctext {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 100;
+  left: 100;
+  right: 100;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
@@ -31,23 +31,23 @@ transition: opacity .2s, visibility .2s;
 transition: opacity .2s, visibility .2s;
 }
 
-.column:hover .ddctext {
+.col-sm:hover .ddctext {
   visibility: visible;
   opacity: 1;
 }
 .custardfactorytext {
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 100;
+  left: 100;
+  right: 100;
   background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
 transition: opacity .2s, visibility .2s;
 }
-.column:hover .custardfactorytext {
+.col-sm:hover .custardfactorytext {
   visibility: visible;
   opacity: 1;
 }
@@ -85,7 +85,7 @@ margin: 0px 0 70px 100px;
   text-align: center;
 }
   .body {
-    background-color: #A3E4D7;
+    background-color: white;
     text-align: center;
     margin:0px;
     padding:0px;
