@@ -1,0 +1,125 @@
+#navcolorbhub {
+  background-color: #F9C6D6;
+}
+.ikontext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+
+.column:hover .ikontext {
+  visibility: visible;
+  opacity: 1;
+}
+.ddctext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+
+.column:hover .ddctext {
+  visibility: visible;
+  opacity: 1;
+}
+.custardfactorytext {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+transition: opacity .2s, visibility .2s;
+}
+.column:hover .custardfactorytext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ikon-image {
+  width: 300px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.ddc-image {
+  width: 250px;
+  border-radius: 10px;
+  margin: 15px;
+}
+.custardfactory-image {
+  width: 275px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.h1 {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 75px;
+  padding: 10px;
+  margin: 60px 0 0 0;
+}
+.h2 {
+font-family: helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+margin: 0px 0 70px 100px;
+}
+.h3 {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+}
+  .body {
+    background-color: #A3E4D7;
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+.p {
+  color: black;
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: relative;
+  bottom: 50px;
+  margin: 15px;
+}
+.footer {
+  padding-top: 100px;
+  padding-left: 575px;
+  align-items: center;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.row {
+position: relative;
+text-align: center;
+}
+.div.col-sm {
+  display:inline-block;
+  font-family: helvetica, sans-serif;
+  color: black;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
