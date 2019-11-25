@@ -3,8 +3,8 @@
 }
 .ikontext {
   position: absolute;
-  top: 100px;
-  bottom: 50px;
+  top: 50px;
+  bottom: -50px;
   left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
@@ -20,8 +20,8 @@ transition: opacity .2s, visibility .2s;
 }
 .ddctext {
   position: absolute;
-  top: 100px;
-  bottom: 60px;
+  top: 50px;
+  bottom: -50px;
   left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
@@ -37,8 +37,8 @@ transition: opacity .2s, visibility .2s;
 }
 .custardfactorytext {
   position: absolute;
-  top: 100px;
-  bottom: 60px;
+  top: 50px;
+  bottom: -40px;
   left: 100px;
   right: 100px;
   background: rgba(29, 106, 154, 0.72);
